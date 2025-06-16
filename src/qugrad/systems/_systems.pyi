@@ -865,7 +865,7 @@ class QuantumSystem:
         observable with respect to the final state and then computes the
         gradient of the final state with respect to the first argument
         (``args[0]``) using
-        :meth:`~py_ste.evolvers.DenseUnitaryEvoler.switching_function()`
+        :meth:`~py_ste.evolvers.DenseUnitaryEvolver.switching_function()`
         from `PySTE <https://PySTE.readthedocs.io>`__.
 
         Parameters
