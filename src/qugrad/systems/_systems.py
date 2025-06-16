@@ -272,9 +272,9 @@ class QuantumSystem:
         ----
         The `evolver` can take a while to initialise and so is not initialised
         until `evolver` is is first used or when :meth:`initialise_evolver()` is
-        called. Using `evolver` before calling :meth:``initialise_evolver()``
+        called. Using `evolver` before calling :meth:`initialise_evolver()`
         initialises the `evolver` with the default parameters of
-        :meth:``initialise_evolver()``.
+        :meth:`initialise_evolver()`.
         """
         if self._evolver is None:
             self.initialise_evolver()
