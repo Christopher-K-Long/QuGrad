@@ -384,7 +384,7 @@ class QuantumSystem:
         shapes. You can either override :meth:`_pre_processing()` directly by
         creating a child class, or you can use :meth:`pulse_form()`.
 
-        For :meth:`gradient()` to function correctly :meth:``_pre_processing()``
+        For :meth:`gradient()` to function correctly :meth:`_pre_processing()`
         should be written in `TensorFlow <https://www.tensorflow.org>`__.
 
         Parameters
