@@ -628,7 +628,7 @@ class QuantumSystem:
             The state at each integrator time step (including the initial
             state).
 
-         See Also
+        See Also
         --------
         * :meth:`evolved_expectation_value()`
         * :meth:`gradient()`
