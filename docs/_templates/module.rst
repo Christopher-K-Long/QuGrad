@@ -1,7 +1,7 @@
 ..
   module.rst
 
-{{ name | escape | underline }}
+{{ fullname | escape | underline }}
 
 .. automodule:: {{ fullname }}
 

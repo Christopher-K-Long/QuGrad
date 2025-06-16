@@ -1,7 +1,7 @@
 ..
   base.rst
 
-{{ name | escape | underline }}
+{{ fullname | escape | underline }}
 
 .. currentmodule:: {{ module }}
 
