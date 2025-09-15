@@ -1,6 +1,8 @@
 # QuGrad
 A Python package for quantum optimal control.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17116721.svg)](https://doi.org/10.5281/zenodo.17116721)
+
 [![Unit Tests](https://github.com/Christopher-K-Long/QuGrad/actions/workflows/test-python-package.yml/badge.svg)](https://github.com/Christopher-K-Long/QuGrad/actions/workflows/test-python-package.yml)
 
 ## Installation
@@ -22,7 +24,7 @@ conda install -c conda-forge libstdcxx-ng
 ### Requirements
 
 Requires:
-- [PySTE](https://PySTE.readthedocs.io)
+- [PySTE](https://PySTE.readthedocs.io) ([doi:10.5281/zenodo.17116431](https://doi.org/10.5281/zenodo.17116431))
 - [TensorFlow](https://www.tensorflow.org)
 - [NumPy](https://numpy.org)
 
