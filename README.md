@@ -43,4 +43,4 @@ Source code can be found at: [https://github.com/Christopher-K-Long/QuGrad](http
 
 ## Version and Changes
 
-The current version is [`1.0.1`](ChangeLog.md#release-101). Please see the [Change Log](ChangeLog.md) for more details. QuGrad uses [semantic versioning](https://semver.org/).
+The current version is [`1.0.2`](ChangeLog.md#release-102). Please see the [Change Log](ChangeLog.md) for more details. QuGrad uses [semantic versioning](https://semver.org/).
