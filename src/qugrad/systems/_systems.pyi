@@ -181,9 +181,7 @@ class QuantumSystem:
         ...
             
     def __del__(self):
-        # to force clear up of tracing
-        del self._graph_processing
-        del self._processing
+        ...
     @property
     def using_graph(self) -> bool:
         """
