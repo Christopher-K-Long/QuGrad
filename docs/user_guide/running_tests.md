@@ -19,7 +19,7 @@ in from a terminal in the root directory of QuGrad to execute the tests for your
 To execute the tests with [pytest](https://docs.pytest.org) you will need to set up a python environment with QuGrad and the packages in `texts/requirements.txt`. For example, you can run
 ```bash
 pip install ./
-pip install tests/requirements.txt
+pip install -r tests/requirements.txt
 ```
 from the root directory of QuGrad to install all the requirements. Next the tests can be executed with the command
 ```bash
