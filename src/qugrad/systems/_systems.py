@@ -29,6 +29,8 @@ def generate_channel_couplings(number_channels: list[int]) -> np.ndarray[bool]:
         An entry is `True` if the channel corresponds to the drive.
     """
     number_channels: np.ndarray[int] = np.array(number_channels)
+    if len(number_channels) == 0:
+        return np.empty((0, 0), dtype=bool)
     number_channels = number_channels.cumsum()
     channel_couplings: np.ndarray[bool] = np.zeros((len(number_channels),
                                                     number_channels[-1]),
