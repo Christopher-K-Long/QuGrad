@@ -556,7 +556,7 @@ class QuantumSystem:
 
         Returns
         -------
-        NDArray[Shape[n_time_steps+1, :attr:`state_shape`], complex]
+        NDArray[Shape[:attr:`state_shape`, n_time_steps+1], complex]
             The state at each integrator time step (including the initial
             state).
 
